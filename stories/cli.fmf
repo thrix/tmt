@@ -212,39 +212,39 @@ story: As a user I want to have an intuitive command line interface
             - tmt story --undocumented
 
     /coverage:
-        story: 'Show coverage overview: '
+        story: 'Show coverage overview'
 
         /overview:
-            story+: 'General overview'
+            story: 'General overview'
             description:
                 Complete overview of the story coverage including
                 implementation, testing and documentation status.
             examples: tmt story coverage
 
         /test:
-            story+: 'Test coverage'
+            story: 'Test coverage'
             examples: tmt story coverage test
 
         /implementation:
-            story+: 'Implementation coverage'
+            story: 'Implementation coverage'
             examples: tmt story coverage implementation
 
         /documentation:
-            story+: 'Documentation coverage'
+            story: 'Documentation coverage'
             examples: tmt story coverage documenation
 
     /export:
         story: 'I need to convert stories into a beautiful format'
 
         /rst:
-            story+: 'Export stories into reStructuredText'
+            story: 'Export stories into reStructuredText'
             description:
                 So that they can be included in tmt documentation.
             examples: tmt story export --rst
 
 
         /html:
-            story+: 'Export stories into html'
+            story: 'Export stories into html'
             description:
                 So that they can be quickly reviewed in a web
                 browser. Optionally a simple python httpd server

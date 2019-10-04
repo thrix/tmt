@@ -1,6 +1,5 @@
 story:
-    As a command line user I want to have all essential
-    documentation at hand.
+    As a user I want to have essential documentation at hand
 
 /help:
     story:
@@ -23,8 +22,8 @@ story:
 
 /examples:
     story:
-        A couple of instructive examples should be included in the
-        package for easy first experimenting
+        A couple of examples should be included in the package for
+        easy first experimenting
     description:
         Examples should be stored under the /usr/share/doc
         directory.
