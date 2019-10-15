@@ -1,0 +1,10 @@
+story:
+    As a tester I want to group tests and specify environment for
+    testing.
+
+description:
+    These metadata contain information for execution of multiple
+    test cases such as how the environment for testing should be
+    prepared, which set of test cases is relevant for testing
+    specific artifact or which frameworks should be used for
+    execution.

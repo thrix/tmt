@@ -1,0 +1,8 @@
+story:
+    As a tester I want to store test metadata close to the test
+    source code.
+description:
+    These are test metadata closely related to individual test
+    cases for which it make sense to store them directly with the
+    test code. Examples of such metadata are summary, description,
+    duration or tags.
