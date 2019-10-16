@@ -251,12 +251,14 @@ areas = {
     '/stories/api': 'API',
     '/stories/core': 'Core',
     '/stories/install': 'Installation',
-    '/specs/l1': 'L1 Metadata',
-    '/specs/l2': 'L2 Metadata',
+    '/spec/core': 'Core',
+    '/spec/tests': 'Tests',
+    '/spec/plans': 'Plans',
+    '/spec/stories': 'Stories',
     }
 
 os.makedirs('stories', exist_ok=True)
-os.makedirs('specs', exist_ok=True)
+os.makedirs('spec', exist_ok=True)
 for area in areas:
     with open('{}.rst'.format(area.lstrip('/')), 'w') as doc:
         doc.write('{}\n{}\n'.format(areas[area], '=' * len(areas[area])))

@@ -18,7 +18,7 @@ Table of Contents
     Overview <overview>
     Dreams <dreams>
     Stories <stories>
-    Specifications <specs>
+    Specification <spec>
     Commands <commands>
     Examples <examples>
     Modules <modules>
