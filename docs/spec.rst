@@ -20,11 +20,21 @@ The base level specification defines core attributes such as
 ``summary`` and ``description``` which are common and can be used
 across all metadata levels.
 
+.. toctree::
+    :maxdepth: 2
+
+    spec/core
+
 **L1 Metadata: Tests**
 
 These are test metadata closely related to individual test cases
 for which it make sense to store them directly with the test code.
 Examples of such metadata are ``duration`` or ``tags``.
+
+.. toctree::
+    :maxdepth: 2
+
+    spec/tests
 
 **L2 Metadata: Plans**
 
@@ -32,6 +42,11 @@ Level 2 metadata contain information for execution of multiple
 test cases such as how the environment for testing should be
 prepared, which set of test cases is relevant for testing specific
 artifact or which frameworks should be used for execution.
+
+.. toctree::
+    :maxdepth: 2
+
+    spec/plans
 
 **L3 Metadata: Stories**
 
@@ -42,7 +57,4 @@ to easily track implementation, test and documentation coverage.
 .. toctree::
     :maxdepth: 2
 
-    spec/core
-    spec/tests
-    spec/plans
     spec/stories

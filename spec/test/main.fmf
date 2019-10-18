@@ -1,7 +1,0 @@
-story:
-    As a tester I want to store test metadata close to the test
-    source code.
-description:
-    These test metadata are closely related to individual tests
-    so it makes sense to store them directly with the test code.
-    Examples of such metadata are ``duration`` or ``tags``.

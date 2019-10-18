@@ -1,11 +1,11 @@
-summary: Person(s) maintaining the test
+summary: Test maintainer contact
 
 story:
     As a developer reviewing a complex test which failed I would
     like to contact the person who maintains the code and
     understands it well.
 
-decription:
+description:
     When there are several people collaborating on tests it's
     useful to have a way how find who is responsible for what.
 

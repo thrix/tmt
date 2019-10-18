@@ -1,20 +1,18 @@
 summary: Detailed description of what the test does
 
 story:
-    As a tester I come to a test code I wrote 10 years ago (so I
-    have absolutely no idea about it) and would like to quickly
-    understand what it does.
+    As a developer I review existing test coverage for my
+    component and would like to get an overall idea what is
+    covered without having to read the whole test code.
 
-    - As a developer I review existing test coverage for my component
-      and would like to get an overall idea what is covered without
-      having to read the whole test code.
-
-decription:
+description:
     For complex tests it makes sense to provide more detailed
     description to better clarify what is covered by the test.
+    This can be useful for test writer as well when reviewing a
+    test written long time ago.
 
 examples: |
-    description: |
+    description:
         This test checks all available wget options related to
         downloading files recursively. First a tree directory
         structure is created for testing. Then a file download

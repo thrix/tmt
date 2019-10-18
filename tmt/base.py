@@ -347,7 +347,7 @@ class Story(Node):
         if title:
             depth = len(re.findall('/', self.name)) - 1
             title = re.sub('.*/', '', self.name)
-            output += '\n{}\n{}\n'.format(title, '=~^:-'[depth] * len(title))
+            output += '\n{}\n{}\n'.format(title, '=~^:-><'[depth] * len(title))
 
         # Summary, story and description
         if self.summary and self.summary != self.node.parent.get('summary'):
