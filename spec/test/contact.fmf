@@ -1,0 +1,19 @@
+summary: Person(s) maintaining the test
+
+story:
+    As a developer reviewing a complex test which failed I would
+    like to contact the person who maintains the code and
+    understands it well.
+
+decription:
+    When there are several people collaborating on tests it's
+    useful to have a way how find who is responsible for what.
+
+examples: |
+    contact: Name Surname <email@address.org>
+
+    contact:
+        - First Person <first@address.org>
+        - Second Person <second@address.org>
+
+type: string or list of strings (name with email address)

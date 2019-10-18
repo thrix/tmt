@@ -6,6 +6,8 @@ story:
 
 description:
     This attribute defines how the test is to be executed.
+    Allows to parametrize a single test script and in this way
+    create virtual test cases.
 
 examples: |
     test: ./test.sh
