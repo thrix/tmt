@@ -4,57 +4,42 @@ Metadata Specification
 
 This specification defines a way how to store all metadata needed
 for test execution in plain text files close to the test code or
-source code. Files are stored under version control directly in
-the git repository.
+application source code. Files are stored under version control
+directly in the git repository.
 
-Flexible Metadata Format is used to store data in a concise human
-and machine readable way plus adds a few nice features like
-virtual hierarchy, inheritance and elasticity to minimize data
-duplication and maintenance.
+`Flexible Metadata Format`_ is used to store data in a concise
+human and machine readable way plus adds a couple of nice features
+like virtual hierarchy, inheritance and elasticity to minimize
+data duplication and maintenance.
 
-There are several metadata levels defined:
+.. _Flexible Metadata Format: https://fmf.readthedocs.io/
 
-**L0 Metadata: Core**
+The following metadata levels are defined:
 
-The base level specification defines core attributes such as
-``summary`` and ``description``` which are common and can be used
-across all metadata levels.
+Level 0
+    Core attributes such as ``summary`` for short overview,
+    ``description`` for detailed texts or the ``order`` which are
+    common and can be used across all metadata levels.
 
-.. toctree::
-    :maxdepth: 2
+Level 1
+    Metadata closely related to individual test cases such as
+    the ``test`` script, directory ``path`` or maximum
+    ``duration`` which are stored directly with the test code.
 
-    spec/core
+Level 2
+    Description of how to ``provision`` the environment for
+    testing and how to ``prepare`` it or which frameworks should
+    be used to ``execute`` tests relevant for given ``artifact``.
 
-**L1 Metadata: Tests**
-
-These are test metadata closely related to individual test cases
-for which it make sense to store them directly with the test code.
-Examples of such metadata are ``duration`` or ``tags``.
-
-.. toctree::
-    :maxdepth: 2
-
-    spec/tests
-
-**L2 Metadata: Plans**
-
-Level 2 metadata contain information for execution of multiple
-test cases such as how the environment for testing should be
-prepared, which set of test cases is relevant for testing specific
-artifact or which frameworks should be used for execution.
+Level 3
+    A user ``story`` can be used to define expected features of
+    the application and to easily track which functionality has
+    been already ``implemented``, ``tested`` and ``documented``.
 
 .. toctree::
     :maxdepth: 2
 
-    spec/plans
-
-**L3 Metadata: Stories**
-
-For tracking user stories or features Level 3 metadata are used.
-Stories can be linked to other objects. In this way it is possible
-to easily track implementation, test and documentation coverage.
-
-.. toctree::
-    :maxdepth: 2
-
-    spec/stories
+    spec/l0
+    spec/l1
+    spec/l2
+    spec/l3

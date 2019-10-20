@@ -8,9 +8,8 @@ description:
     When a test is broken and it is not possible to fix it
     immediately there should be an easy way how to temporarily
     mark it as disabled so that it's skipped during the test suite
-    execution. The default value is ``no``.
+    execution. Should be a ``boolean``. The default value is
+    ``no``.
 
 examples: |
     disabled: yes
-
-type: boolean

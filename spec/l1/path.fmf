@@ -11,13 +11,12 @@ description:
 
     Automation is expected to change directory to provided path
     starting from the fmf tree root directory before executing the
-    test. Use absolute path starting with slash. If path is not
-    defined, object name (identifier) is used by default.
+    test. Use a ``string`` containing an absolute path starting
+    with slash. If path is not defined, object name (identifier)
+    is used by default.
 
 examples: |
     path: /protocols/https
 
 links:
     - http://fmf.readthedocs.io/en/latest/features.html#virtual
-
-type: string

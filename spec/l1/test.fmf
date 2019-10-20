@@ -7,12 +7,10 @@ story:
 description:
     This attribute defines how the test is to be executed.
     Allows to parametrize a single test script and in this way
-    create virtual test cases.
+    create virtual test cases. Should be a ``string``.
 
 examples: |
     test: ./test.sh
     test: ./test.sh --depth 1000
     test: pytest -k performance
     test: make run
-
-type: string

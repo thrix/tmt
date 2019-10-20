@@ -365,14 +365,13 @@ class Story(Node):
                 key_color=None, value_color=None) + '\n'
 
         # Status
-        if self.node.children:
-            return output
-        status = []
-        for coverage in ['implemented', 'tested', 'documented']:
-            if getattr(self, coverage):
-                status.append(coverage)
-        output += "\nStatus: {}\n".format(
-            fmf.utils.listed(status) if status else 'idea')
+        if not self.node.children:
+            status = []
+            for coverage in ['implemented', 'tested', 'documented']:
+                if getattr(self, coverage):
+                    status.append(coverage)
+            output += "\nStatus: {}\n".format(
+                fmf.utils.listed(status) if status else 'idea')
 
         return output
 

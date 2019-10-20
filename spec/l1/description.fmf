@@ -9,7 +9,8 @@ description:
     For complex tests it makes sense to provide more detailed
     description to better clarify what is covered by the test.
     This can be useful for test writer as well when reviewing a
-    test written long time ago.
+    test written long time ago. Should be a ``string`` (multi
+    line, plain text).
 
 examples: |
     description:
@@ -18,5 +19,3 @@ examples: |
         structure is created for testing. Then a file download
         is performed for different recursion depth specified by
         the "--level=depth" option.
-
-type: string (multi line, plain text)

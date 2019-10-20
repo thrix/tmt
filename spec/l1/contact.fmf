@@ -8,6 +8,8 @@ story:
 description:
     When there are several people collaborating on tests it's
     useful to have a way how find who is responsible for what.
+    Should be a ``string`` or a ``list of strings`` (email address
+    format with name and surname).
 
 examples: |
     contact: Name Surname <email@address.org>
@@ -15,5 +17,3 @@ examples: |
     contact:
         - First Person <first@address.org>
         - Second Person <second@address.org>
-
-type: string or list of strings (name with email address)

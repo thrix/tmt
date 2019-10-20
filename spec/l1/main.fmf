@@ -5,11 +5,7 @@ story:
 description: |
     These test metadata are closely related to individual tests
     so it makes sense to store them directly with the test code.
-    In order to use the Flexible Metadata Format effectively we
-    define the essential set of attributes to be used.
-
     For each attribute we standardize a clear, unique and well
-    chosen ``name`` and ``type`` which is string, number, list,
-    dictionary or boolean. Each definition contains at least one
+    chosen name and type. Each definition contains at least one
     apt example of the usage and a user story illustrating the
     motivation.

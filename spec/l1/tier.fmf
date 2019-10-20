@@ -10,9 +10,8 @@ description:
     their importance, stability, duration and other aspects. For
     this tags have been used quite often as there was not
     corresponding attribute available. It might make sense to have
-    a dedicated field for this functionality as well.
+    a dedicated field for this functionality as well. Should be a
+    ``string``.
 
 examples: |
     tier: 1
-
-type: string

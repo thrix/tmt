@@ -251,10 +251,10 @@ areas = {
     '/stories/api': 'API',
     '/stories/core': 'Core',
     '/stories/install': 'Installation',
-    '/spec/core': 'Core',
-    '/spec/tests': 'Tests',
-    '/spec/plans': 'Plans',
-    '/spec/stories': 'Stories',
+    '/spec/l0': 'L0 Metadata',
+    '/spec/l1': 'L1 Metadata',
+    '/spec/l2': 'L2 Metadata',
+    '/spec/l3': 'L3 Metadata',
     }
 
 os.makedirs('stories', exist_ok=True)

@@ -6,12 +6,11 @@ story:
 
 description:
     In order to efficiently collaborate on test maintenance it's
-    crucial to have a short summary of what the test does.
+    crucial to have a short summary of what the test does. Should
+    be a ``string`` (one line, up to 50 characters).
 
 examples: |
     summary: Test wget recursive download options
 
 links:
     - https://stackoverflow.com/questions/2290016/git-commit-messages-50-72-formatting
-
-type: string (one line, up to 50 characters)

@@ -9,10 +9,9 @@ description:
     It's useful to be able to easily select all tests relevant for
     given component or package. As they do not always have to be
     stored in the same repository and because many tests cover
-    multiple components a dedicated field is needed.
+    multiple components a dedicated field is needed. Should be a
+    ``list of strings``.
 
 examples: |
     component: [libselinux, checkpolicy]
     fmf ls --filter 'tier: 1 | component: checkpolicy'
-
-type: list of strings
