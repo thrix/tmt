@@ -39,7 +39,8 @@ Level 3
 .. toctree::
     :maxdepth: 2
 
-    spec/l0
-    spec/l1
-    spec/l2
-    spec/l3
+    spec/core
+    spec/tests
+    spec/plans
+    spec/steps
+    spec/stories

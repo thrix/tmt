@@ -1,5 +1,8 @@
 summary: Test steps
 
+story:
+    As a user I want to run selected steps of the test execution.
+
 description:
     There are several separate steps defined for the test
     execution.  Clearly separating testing stages gives users
